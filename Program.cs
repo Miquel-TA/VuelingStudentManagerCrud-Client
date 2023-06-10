@@ -14,9 +14,17 @@ namespace VuelingStudentManagerCrud_Client
         [STAThread]
         static void Main()
         {
-            Application.EnableVisualStyles();
-            Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            try
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new Form1());
+            }
+            catch (Exception ex)
+            {
+                Logger.Log(ex.Message, Logger.Severity.Critical);
+                Logger.Log(ex.StackTrace, Logger.Severity.Critical);
+            }
         }
     }
 }
