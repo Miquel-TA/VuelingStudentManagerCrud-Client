@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VuelingStudentManagerCrud-Client", "VuelingStudentManagerCrud-Client.csproj", "{B1D43FD3-7D9A-4D8E-A3CB-45D53DD7776F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1D43FD3-7D9A-4D8E-A3CB-45D53DD7776F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1D43FD3-7D9A-4D8E-A3CB-45D53DD7776F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1D43FD3-7D9A-4D8E-A3CB-45D53DD7776F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1D43FD3-7D9A-4D8E-A3CB-45D53DD7776F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28BB8F0D-D8C5-4E35-8C2E-6751D6D37470}
+	EndGlobalSection
+EndGlobal
